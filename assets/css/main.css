@@ -2230,34 +2230,34 @@ footer {
 }
 
 /* Pricing Ticket */
-#pricing {
+#registration {
   background: #f8fafa;
   position: relative;
 }
 
-#pricing .price-block-wrapper {
+#registration .price-block-wrapper {
   display: inline-block;
   width: 100%;
   text-align: center;
   box-shadow: 0 8px 24px #E2E8ED;
   border-radius: 4px;
   background: #fff;
-  padding: 50px 40px;
+  padding: 50px 10px;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
 
-#pricing .price-block-wrapper .icon {
+#registration .price-block-wrapper .icon {
   padding: 20px;
 }
 
-#pricing .price-block-wrapper .icon i {
+#registration .price-block-wrapper .icon i {
   font-size: 60px;
   color: #ff4a67;
 }
 
-#pricing .price-block-wrapper .colmun-title h5 {
+#registration .price-block-wrapper .colmun-title h5 {
   font-size: 20px;
   color: #212121;
   margin-bottom: 20px;
@@ -2265,31 +2265,33 @@ footer {
   font-weight: 700;
 }
 
-#pricing .price-block-wrapper .price {
+#registration .price-block-wrapper .price {
   padding-top: 10px;
   transition: all 500ms ease;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
 }
 
-#pricing .price-block-wrapper .price h2 {
-  font-size: 38px;
+#registration .price-block-wrapper .price h2 {
+  font-size: 30px;
   background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   line-height: 42px;
   margin-bottom: 7px;
+  padding: 0 30px;
+  color: #fff;
 }
 
-#pricing .price-block-wrapper .price span {
+#registration .price-block-wrapper .price span {
   text-transform: uppercase;
   font-size: 13px;
 }
 
-#pricing .price-block-wrapper .price p {
+#registration .price-block-wrapper .price p {
   font-size: 15px;
-  color: #5c5c5c;
+  color: #ffffff;
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 30px;
@@ -2299,15 +2301,17 @@ footer {
   -moz-transition: all 500ms ease;
 }
 
-#pricing .price-block-wrapper .pricing-list {
-  padding: 15px 0;
+#registration .price-block-wrapper .pricing-list2 {
+  padding: 15px 30px;
+  text-align: left;
+  color: #fff;
 }
 
-#pricing .price-block-wrapper .pricing-list ul {
+#registration .price-block-wrapper .pricing-list ul {
   padding-bottom: 15px;
 }
 
-#pricing .price-block-wrapper .pricing-list ul li {
+#registration .price-block-wrapper .pricing-list ul li {
   position: relative;
   line-height: 40px;
   font-size: 15px;
@@ -2315,58 +2319,58 @@ footer {
   padding: 2px 0px;
 }
 
-#pricing .price-block-wrapper .pricing-list ul li i {
+#registration .price-block-wrapper .pricing-list ul li i {
   margin-right: 7px;
   font-size: 12px;
   color: #ff4a67;
 }
 
-#pricing .price-block-wrapper .btn i {
+#registration .price-block-wrapper .btn i {
   font-size: 12px;
   margin-right: 5px;
 }
 
-#pricing .price-block-wrapper:hover {
+#registration .price-block-wrapper:hover {
   box-shadow: 0 16px 48px #E2E8ED;
 }
 
-#pricing .active {
+#registration .active {
   background-image: linear-gradient(65deg, #FF4D79 0, #FF809F 100%);
   box-shadow: 0 16px 48px #E2E8ED;
 }
 
-#pricing .active .icon i {
+#registration .active .icon i {
   color: #fff;
 }
 
-#pricing .active .colmun-title h5 {
+#registration .active .colmun-title h2 {
   color: #fff;
 }
 
-#pricing .active .price h2 {
+#registration .active .price h2 {
   background-image: linear-gradient(120deg, #fff 0%, #fff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
-#pricing .active .price span {
+#registration .active .price span {
   color: #fff;
 }
 
-#pricing .active .price p {
+#registration .active .price p {
   color: #fff;
 }
 
-#pricing .active .pricing-list ul li {
+#registration .active .pricing-list ul li {
   color: #fff;
 }
 
-#pricing .active .pricing-list ul li i {
+#registration .active .pricing-list ul li i {
   color: #fff;
 }
 
-#pricing .active .btn {
+#registration .active .btn {
   background: #fff;
   color: #212121;
 }
