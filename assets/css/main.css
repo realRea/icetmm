@@ -579,10 +579,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  color : #FF4D79;
 }
 
 .navbar-brand img {
-  width: 75%;
+  width: 60%;
 }
 
 .top-nav-collapse {
@@ -856,6 +857,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 .about-content .about-text h2 {
   font-size: 40px;
   font-weight: 700;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-content .about-text h6 {
@@ -868,6 +871,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 .about-content .about-text p {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-content ul {
@@ -2417,9 +2422,10 @@ footer {
   color: #fff;
   font-size: 48px;
   line-height: 48px;
-  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 22px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 #hero-area .contents .banner-desc {
@@ -2436,4 +2442,18 @@ footer {
   font-size: 16px;
   padding: 12px 40px;
   text-transform: uppercase;
+}
+
+.first-letter{
+  color: #ff85a3;
+}
+
+.icon-2{
+  width: 30%;
+}
+.icon-3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
